@@ -55,6 +55,8 @@ Tweets the `msg.payload`.
 To send a Direct Message (DM) - use a payload like.
 
         D {username} {message}
+        
+WARNING: In the current release the Direct Message feature does not work: See https://github.com/node-red/node-red-nodes/issues/361
 
 If `msg.media` exists and is a Buffer object, this node will treat it as an image and attach it to the tweet.
 
